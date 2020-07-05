@@ -1,0 +1,7 @@
+wordcount
+<a href="{% url 'wordcount:about' %}">ABOUT</a>
+<form action="{% url 'wordcount:count' %}">
+    <textarea cols="100" rows="10" name="fulltext"></textarea>
+    <br/>
+    <input type="submit" value="count"/>
+</form>
