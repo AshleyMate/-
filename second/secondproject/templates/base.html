@@ -32,7 +32,8 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ml-auto">
                         <a class="nav-item nav-link active" href="{% url 'blog:home' %}">Home</span></a>
-                    <a class="nav-item nav-link" href="#">Blog</a>
+                    <a class="nav-item nav-link" href="{% url 'accounts:signup' %}">회원가입</a>
+                    <a class="nav-item nav-link" href="{% url 'accounts:login' %}">로그인</a>
                     <a class="nav-item nav-link" href="{% static 'unnamed.jpg' %}">수료증</a>
                 </div>
             </div>
